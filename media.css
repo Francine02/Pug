@@ -1,0 +1,26 @@
+@media only screen and (max-width: 650px) {
+    #runing {
+        height: 12%;
+    }
+
+    #stone {
+        height: 15%;
+        top: 520px;
+    }
+
+    #flower {
+        width: 8%;
+    }
+
+    #flower2 {
+        width: 8%;
+    }
+
+    #tree {
+        width: 89%;
+    }
+
+    #tree2 {
+        width: 89%;
+    }
+}
