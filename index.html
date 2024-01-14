@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href="style.css">
     <link rel = "stylesheet" href="media.css">
+    <link href="https://fonts.cdnfonts.com/css/public-pixel" rel="stylesheet">
     <title>Jogo de Pular do Pug</title>
 </head>
 <body>
     <div class = "design">
+        <audio id="music" src="./forest-lullaby-110624.mp3" autoplay loop></audio>
         <img src="./Imagens/flower.png" id="flower">
         <img src="./Imagens/flower2.png" id="flower2">
         <img src="./Imagens/ceu.png" id="sky">
@@ -16,14 +18,14 @@
         <img src="./Imagens/tree2.png" id="tree2">
         <img src="./Imagens/bird.gif" id="bird">
         <img src="./Imagens/birds.gif" id="birds">
-        <img src="./Imagens/runing.gif" id="runing">
         <img src="./Imagens/stone.png" id="stone">
-
-        <!---<img src="game-over.png" id="game-over"> 
-        <img src="stop.gif" id="encostou ">
-        --->
+        <img src="./Imagens/runing.gif" id="runing">
+        <img src="./Imagens/stop.gif" id="stop">
+        <img src="./Imagens/game-over.png" id="game-over"> 
     </div>
 
-    <script src="js/script.js" defer></script>
+    <div id="time">Percorrido: 0s</div>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
