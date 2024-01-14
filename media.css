@@ -1,15 +1,25 @@
 @media only screen and (max-width: 768px){
     #runing {
-        height: 12%;
+        height: 8%;
+    }
+
+    .jumping {
+        animation: animation-jump 650ms ease-in;
+    }
+
+    #time {
+        margin-left: 10%;
+        font-size: medium;
     }
 
     #stop {
-        height: 23%;
+        height: 16%;
     }
 
     #stone {
         height: 13%;
-        top: 520px;
+        top: 530px;
+        animation: animation-all 2s linear infinite;
     }
 
     #flower,

@@ -11,6 +11,10 @@ document.addEventListener('click', () => {
     music.play();
 });
 
+document.addEventListener('touchstart', () => {
+    music.play();
+});
+
 let jumping = () => {
     runing.classList.add('jumping');
     
@@ -25,8 +29,8 @@ let Collision = setInterval(() => {
     const stoneLocal = stone.offsetLeft;
     const runingLocal = parseInt(window.getComputedStyle(runing).bottom.replace('px', ''));
 
-    if (stoneLocal <= 120 &&  
-        runingLocal <= 74 && 
+    if (stoneLocal <= 95 &&  
+        runingLocal <= 70 && 
         stoneLocal > 0
     ) {
         gameOver.style.display = 'block';
@@ -38,7 +42,7 @@ let Collision = setInterval(() => {
         runing.style.animation = 'none';
         runing.style.bottom = runingLocal + 'px';
         
-
+ 
         runing.replaceWith(stop);
         stop.style.display = 'block';
 
@@ -52,3 +56,4 @@ let Collision = setInterval(() => {
 }, 9);
 
 document.addEventListener ('keydown', jumping); 
+document.addEventListener ('touchstart', jumping);
