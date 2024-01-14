@@ -5,9 +5,11 @@ const stop = document.querySelector('#stop');
 const time = document.querySelector('#time');
 const music = document.getElementById('music');
 
-music.play();
-
 let timeElapsed = 0;
+
+document.addEventListener('click', () => {
+    music.play();
+});
 
 let jumping = () => {
     runing.classList.add('jumping');
