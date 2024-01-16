@@ -1,23 +1,23 @@
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 764px){
     #runing {
         height: 8%;
     }
 
     .jumping {
-        animation: animation-jump 650ms ease-in;
+        animation: animation-jump 600ms ease-in;
     }
 
     #time {
         margin-left: 10%;
-        font-size: medium;
+        font-size: x-small;
     }
 
     #stop {
-        height: 16%;
+        height: 8%;
     }
 
     #stone {
-        height: 13%;
+        height: 14%;
         top: 530px;
         animation: animation-all 2s linear infinite;
     }
@@ -36,5 +36,21 @@
         left: 12%;
         height: 40%;
         top: 30%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1028px){
+    #game-over {
+        left: 23%;
+        height: 60%;
+        top: 24%;
+    }
+
+    .jumping {
+        animation: animation-jump 650ms ease-in;
+    }
+
+    #stone {
+        animation: animation-all 2s linear infinite;
     }
 }

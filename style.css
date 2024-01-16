@@ -90,9 +90,9 @@ body {
 
 #stop {
     position: absolute;
-    height: 30%;
+    height: 15%;
     bottom: 0%;
-    display: none;
+     display: none;
 }
 
 #bird {
@@ -114,7 +114,7 @@ body {
 }
 
 .jumping {
-    animation: animation-jump 400ms ease-in;
+    animation: animation-jump 500ms ease-in;
 }
 
 @keyframes animation-all {

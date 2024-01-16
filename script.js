@@ -29,7 +29,7 @@ let Collision = setInterval(() => {
     const stoneLocal = stone.offsetLeft;
     const runingLocal = parseInt(window.getComputedStyle(runing).bottom.replace('px', ''));
 
-    if (stoneLocal <= 95 &&  
+    if (stoneLocal <= 78  &&  
         runingLocal <= 70 && 
         stoneLocal > 0
     ) {
